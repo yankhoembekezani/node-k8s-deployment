@@ -1,8 +1,10 @@
 # Node
 node_modules/
 .npm/
-npm-debug.log
-yarn-error.log
+
+# Python venv
+.venv/
+__pycache__/
 
 # Docker
 *.dockerignore
@@ -14,3 +16,6 @@ yarn-error.log
 # System
 .DS_Store
 .env
+
+# Logs
+*.log
