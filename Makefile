@@ -1,5 +1,16 @@
 # Placeholder Makefile
-.PHONY: help
+.PHONY: help deps dev-run
 
+# Show this help
 help:
-	@echo "Targets will be added as project progresses."
+	@echo "Available targets:"
+	@echo "  deps             Install Node.js dependencies"
+	@echo "  dev-run          Run app locally without Docker"
+
+# Local deps
+deps:
+	npm ci
+
+# Local run (no Docker)
+dev-run:
+	node app.js

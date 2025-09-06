@@ -1,0 +1,15 @@
+{
+  "name": "node-k8s-demo",
+  "version": "1.0.0",
+  "private": true,
+  "main": "app.js",
+  "type": "commonjs",
+  "description": "A minimal Node.js app deployed on Kubernetes",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
