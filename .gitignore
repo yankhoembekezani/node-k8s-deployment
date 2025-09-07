@@ -6,9 +6,6 @@ node_modules/
 .venv/
 __pycache__/
 
-# Docker
-*.dockerignore
-
 # Kubernetes / Minikube
 .kube/
 *.yaml
